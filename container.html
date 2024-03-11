@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      height:400px;
+      width:1100px;
+      border:2px solid red;
+      margin:50px auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      grid-template-rows: 200px 200px;
+      /* gap:30px; */
+
+    }
+    #shadow{
+      height:100%;
+      width:100%;
+      background-color: rgba(0,0,0,0.6);
+
+    }
+    .g1{
+      background-image: url("https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=400");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      
+      grid-column: 1/3;
+      grid-row: 1/3;
+      
+      text-align: center;
+      color:white;
+      padding-top: 200px;
+      border-radius: 10px;
+      box-shadow: 0 0 4px black;
+     
+      
+    }
+
+    .g2{
+      background-image: url("https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=400");
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      text-align: center;
+      color:white;
+      padding-top: 100px;
+      border-radius: 10px;
+      box-shadow: 0 0 4px black;
+      
+    }
+    .g3{
+      background-image: url("https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=400");
+      grid-column-start: 3;
+      grid-column-end: 5;
+       grid-row-start: 2;
+       grid-row-end: 3;
+       text-align: center;
+      color:white;
+      padding-top: 100px;
+      border-radius: 10px;
+      box-shadow: 0 0 4px black;
+     
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="g1">
+      <div id="shadow"></div>
+    </div>
+    <div class="g2">Mandhara</div>
+    
+    <div class="g3">Nature</div>
+  </div>
+</body>
+</html>

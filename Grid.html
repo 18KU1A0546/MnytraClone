@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Container</title>
+  <style>
+    .gridContainer{
+      height:500px;
+      width:1200px;
+      /* border:2px solid black; */
+      margin: 50px auto;
+      display:grid;
+      grid-template-columns: 600px 600px;
+      grid-template-rows: 250px 250px;
+      gap:20px;
+    }
+    .box{
+      display:flex;
+      box-shadow: 0 0 10px black;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="gridContainer">
+    <div class="box">
+      <div style="width : 40%">
+        <img class="img"src="https://www.ashokitech.com/assets/frontend/images/training1.png" width="100%" height="250px"/>
+      </div>
+      <div style="width : 60%; padding:15px ">
+        <h3>In-time Course Completion</h3>
+        <p>Our courses are strategically and innovatively designed, blending both theoretical and practical teaching methods. The modules are carefully chosen to ensure the course is as industry-relevant as possible. The courses are concise yet thorough and students can kick start their careers at the earliest possible.</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div style="width : 40%">
+        <img src="https://www.ashokitech.com/assets/frontend/images/training2.png" width="100%" height="250px"/>
+      </div>
+      <div style="width : 60%; padding:15px ">
+        <h3>State-of-the-art Infrastructure</h3>
+        <p>At Ashok IT Students study in a learning environment supported by state-of-the-art infrastructure, new and innovative teaching techniques, and high-end technological educational resources.</p>
+      </div>
+    </div>
+
+
+
+    <div class="box">
+      <div style="width : 40%">
+        <img src="https://www.ashokitech.com/assets/frontend/images/training3.png"width="100%" height="250px"/>
+      </div>
+      <div style="width : 60%; padding:15px ">
+        <h3>Blended Training Approach</h3>
+        <p>We adopt an integrated approach to training that helps our students get both the IT knowledge and skills required to handle the challenging corporate responsibilities. Theoretical learning at Ashok IT is adequately complemented by practice-based heuristic learning that allows our students to learn in an industry-specific way.</p>
+      </div>
+    </div>
+    
+    <div class="box">
+      <div style="width : 40%">
+        <img src="https://www.ashokitech.com/assets/frontend/images/training4.png" width="100%" height="250px"/>
+      </div>
+      <div style="width : 60%; padding: 10px; ">
+        <h3>Free Demo Sessions</h3>
+        <p>We also provide our prospective students with the option to try the various programs and courses that we offer through our free demo service. Using this service students can test the course quality and get a better understanding of what course they want to study.</p>
+      </div>
+    </div>
+  
+  </div>
+
+  
+   
+  
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Document</title>
+  <style>
+    *{
+      margin:0;
+    }
+    html{
+      border:4px solid black;
+      height:600px;
+    }
+    body{
+      border:3px solid blue;
+      margin:20px;
+      height:500px;
+    }
+    .mainContainer{
+      border:3px solid yellow;
+      margin:30px;
+      height:400px;
+
+    }
+    .sub1Container{
+      border: 3px solid green;
+      margin:30px;
+      height:300px;
+      position:relative;
+
+    }
+    .sub2Container{
+      border:2px solid purple;
+      margin:30px;
+      height:400px;
+      position: relative;
+    }
+    #img1{
+      position:absolute;
+      top:20px;
+      left:20px;
+      z-index:1;
+    }
+    #img2{
+      position:absolute;
+      top:20px;
+      left:20px;
+      z-index:2;
+    }
+    #img2{
+      position:absolute;
+      top:20px;
+      left:20px;
+      z-index:3;
+    }
+  </style>
+</head>
+<body>
+  <div class="maincontainer">
+    <div class="sub1Container">
+      <div class="sub2Container">
+        <img id="img1" src="https://images.pexels.com/photos/1778412/pexels-photo-1778412.jpeg" width="100px"height="100px"/>
+
+        <img id="img2"src="https://images.pexels.com/photos/1778412/pexels-photo-1778412.jpeg" width="120px"height="120px"/>
+
+        <img id="img3"src="https://images.pexels.com/photos/1778412/pexels-photo-1778412.jpeg" width="140px"height="140px"/>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
